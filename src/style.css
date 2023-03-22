@@ -1,0 +1,122 @@
+@import url(./style/normalize.css);
+@import url(./style/feedback.css);
+@import url(./style/swiper.css);
+@import url(./style/brandsList.css);
+@import url(./style/brandsCricle.css);
+@import url(./style/popupwindow.css);
+@import url(./style/topBar.css);
+@import url(./style/navigationService.css);
+@import url(./style/informationAboutUs.css);
+@import url(./style/barTitle.css);
+@import url(./style/brands.css);
+@import url(./style/brandsTypeRepairs.css);
+@import url(./style/brandsServicePrice.css);
+@import url(./style/informationBlock.css);
+@import url(./style/footer.css);
+@import url(./style/swiperSection.css);
+@import url(./style/buttonReadMore.css);
+@import url(./style/mainImage.css);
+@import url(./style/switchLanguage.css);
+@import url(./style/logo.css);
+@import url(./style/button.css);
+@import url(./style/wrapButton.css);
+@import url(./style/wrapTitle.css);
+@import url(./style/personalData.css);
+@import url(./style/title.css);
+ 
+body{
+    font-family: "TTLakes";
+    background: #F8F8F8;
+}
+
+.wrap{
+    box-sizing: border-box;
+}
+
+main{
+    background: #F8F8F8 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap-main{
+    width: 100%;
+    height: auto;
+    background-color: #F8F8F8;
+}
+
+.invisible{
+    display: none;
+}
+
+.ful-version-text_invisible{
+    display: none;
+}
+
+.height{
+    height: auto;
+}
+
+@media screen and (min-width: 577px) and (max-width: 1119px) {
+body{
+    overflow-y: auto;
+}
+
+.invisible{
+    display: flex;
+}
+}
+
+@media screen and (min-width: 1120px){
+body{
+    background-color: #F8F8F8;
+}
+
+.ful-version-text_invisible{
+    display: inline;
+}
+
+.invisible{
+    display: inline;
+}
+}
+
+@media screen and (min-width: 1440px){
+.wrap{
+    width: 90%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.button_invisible{
+    display: none;
+}
+}
+
+/* Подключение шрифтов */
+
+@font-face {
+    font-family: "TTLakes"; 
+    src: url("./fonts/TTLakes-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+        font-family: "TTLakesBold"; 
+        src: url("./fonts/TTLakes-Medium.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+}  
+
+@font-face {
+    font-family: "TTLakesB"; 
+    src: url("./fonts/TTLakes-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}  

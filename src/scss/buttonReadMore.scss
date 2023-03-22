@@ -1,0 +1,65 @@
+.button-read-more {
+  cursor: pointer;
+  font-family: 'TTLakesBold';
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: 24px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  background-color: #f8f8f8;
+}
+
+.button-read-more::before {
+  display: inline-block;
+  position: absolute;
+  left: 4%;
+  content: '';
+  width: 7.5px;
+  height: 10px;
+  background-image: url('../../src/assets/arrowtodown.svg');
+  position: inherit;
+  margin-right: 10px;
+}
+
+.grow__onwards_vertical.button-read-more::before {
+  display: block;
+  content: '';
+  position: inherit;
+  width: 7.5px;
+  height: 10px;
+  background-image: url('../../src/assets/arrowtodown.svg');
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .button-read-more_invisible {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .information-about-us__button-read-more {
+    margin-left: 8%;
+  }
+
+  .swiper-section__button-read-more {
+    margin-left: 5.5%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .swiper-section__button-read-more {
+    margin-top: 24px;
+    margin-left: 4%;
+  }
+
+  .information-about-us__button-read-more {
+    margin-left: 2%;
+  }
+}

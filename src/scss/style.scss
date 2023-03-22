@@ -1,0 +1,93 @@
+@import url(normalize.scss);
+@import url(feedback.scss);
+@import url(swiper.scss);
+@import url(brandsList.scss);
+@import url(brandsCricle.scss);
+@import url(popupwindow.scss);
+@import url(topBar.scss);
+@import url(navigationService.scss);
+@import url(informationAboutUs.scss);
+@import url(barTitle.scss);
+@import url(brands.scss);
+@import url(brandsTypeRepairs.scss);
+@import url(brandsServicePrice.scss);
+@import url(informationBlock.scss);
+@import url(footer.scss);
+@import url(swiperSection.scss);
+@import url(buttonReadMore.scss);
+@import url(mainImage.scss);
+@import url(switchLanguage.scss);
+@import url(logo.scss);
+@import url(button.scss);
+@import url(wrapButton.scss);
+@import url(wrapTitle.scss);
+@import url(personalData.scss);
+@import url(title.scss);
+@import url(wrapMain.scss);
+@import url(connection.scss);
+
+body {
+  font-family: 'TTLakes';
+  background: #f8f8f8;
+}
+
+.invisible {
+  display: none;
+}
+
+.height {
+  height: auto;
+}
+
+.scroll {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 577px) and (max-width: 1119px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .invisible {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  body {
+    background-color: #f8f8f8;
+  }
+
+  .invisible {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+  }
+}
+
+/* Подключение шрифтов */
+
+@font-face {
+  font-family: 'TTLakes';
+  src: url('../../src/fonts/TTLakes-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'TTLakesBold';
+  src: url('../../src/fonts/TTLakes-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'TTLakesB';
+  src: url('../../src/fonts/TTLakes-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,15 @@
+.top-bar{
+    height: 80px;
+    box-shadow: 1px 5px 6px 0px rgba(65, 246, 215, 0.2);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0px 16px 0px 16px;
+}
+
+@media screen and (min-width: 1120px){
+.top-bar{
+    display: none;
+}
+}

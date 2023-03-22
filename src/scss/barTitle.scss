@@ -1,0 +1,14 @@
+.bar-title{
+    box-sizing: border-box;
+    display: flex;
+    padding: 16px;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #7E7E82;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    box-shadow: 0 -0.2px 0.5px 0px #41F6D7 ;
+}

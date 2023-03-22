@@ -1,0 +1,23 @@
+.brands__typesRepairs{
+    height: 160px;
+    align-items: start;
+    padding: 10px;
+}
+
+.brands__typesRepairs .brands-cricle{
+    align-self: end;
+}
+
+.brands_typeRepairs{
+    height: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px){
+.title-typeRepairs_margin{
+    margin-top: 32px;
+}
+
+.title-typeRepairs_margin{
+    margin-top: 28px;
+}
+}

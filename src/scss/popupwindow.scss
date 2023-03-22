@@ -1,0 +1,272 @@
+.popup-window{
+    animation: moveMenu 0.3s 1 linear;
+    z-index: 99999999;
+    position: fixed;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.popup-window__blur{
+    z-index: 9999;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+    position: fixed;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    animation: 0.4s 1 linear moveBlur;
+}
+
+.popup-window_invisible{
+    display: none;
+}
+
+.blured{
+    display: none;
+}
+
+.popup-window__menu{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.popup-window__list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.popup-window__item{
+    color: black;
+}
+
+.popup-window__item:hover{
+    color: #7E7E82;  
+}
+
+.popup-window__item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "TTLakesBold";
+    text-decoration: none;
+}
+
+.popup-window__item_chek::before{
+    content: ' ';
+    display: inline-block;
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-color:  #41F6D7;
+}
+
+.popup-window__color-grey{
+    color: #7E7E82;
+}
+
+.popup-window__menu_gap{
+    gap: 16px;
+}
+
+.popup-window_feedback{
+    right: 0px;
+    position: fixed;
+    width: 440px;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.popup-window_blur-feedback{
+    left: 0px;
+}
+
+.invisible-feedback{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+.popup-window__wrap{
+    margin-left: 16px;
+    height: 100vh;
+}  
+    
+.popup-window{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.popup-window__menu{
+    width: auto;
+    margin: 18px 16px 26px 0px;
+}
+
+.popup-window__button{
+    margin-right: 16px;
+}
+
+.popup-window__logo{
+    margin-right: auto;
+}
+
+.popup-window__item{
+    margin-bottom: 24px;
+}
+
+.popup-window__buttom-menu{
+    margin-bottom: 16px;
+}
+.popup-window_feedback{
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    box-shadow: none;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.popup-window__blur{
+    display: none;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+.popup-window{
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+    width: 320px;
+    min-height: 100%;
+    background-color: #FFFFFF;
+}
+
+.popup-window__grow{
+    margin-left: 24px;
+}  
+
+.popup-window__wrap{
+    padding-left: 24px;
+    width: 90%;
+}
+
+.popup-window__menu{
+    width: auto;
+    margin: 18px 16px 26px 0px;
+}
+
+.popup-window__list{
+    margin-bottom: 80%;
+}
+
+.popup-window__item{
+    margin-bottom: 24px;
+}
+
+.popup-window__button{
+    margin-right: 16px;
+}
+ 
+.popup-window__logo{
+    margin-right: auto;
+}   
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1439px) {
+.popup-window{
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+    min-height: 100%;
+    background-color: #FFFFFF;
+}
+
+.popup-window_feedback{
+    width: 440px;
+}
+
+.popup-window_feedback__button{
+    margin-top: -20px;
+}
+
+}
+
+@media screen and (min-width: 1440px){
+.popup-window_invisible{
+    display: block;
+}
+
+.popup-window__grow{
+    margin-left: 24px;
+}  
+  
+.popup-window__blur{
+    z-index: 9999;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.96;
+    position: fixed;
+    right: 0px;
+    width: 100%;
+    height: 100vh;
+    animation: 0.4s 1 linear moveBlur;
+}
+
+.popup-window{
+    position: static;
+    width: 320px;
+    min-height: 100%;
+    overflow-y: hidden;
+    background-color: #FFFFFF;
+}
+
+.popup-window__wrap{
+    padding-left: 24px;
+    width: 90%;
+}
+
+.popup-window__menu{
+    width: auto;
+    margin: 18px 16px 26px 0px;
+}
+
+.popup-window__list{
+    margin-bottom: 80%;
+}
+
+.popup-window__item{
+    margin-bottom: 24px;
+}
+
+.popup-window__button{
+    margin-right: 16px;
+}
+ 
+.popup-window__logo{
+    margin-right: auto;
+}
+
+.popup-window_feedback{
+    right: 0px;
+    position: fixed;
+    width: 440px;
+    padding-top: 20px;
+}
+}
+
+ @keyframes moveMenu{
+    from{
+    opacity: 0;
+    }
+
+    to{
+    opacity: 1;
+    }
+}

@@ -1,0 +1,54 @@
+.form-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 25px 0px 25px;
+}
+
+.form-feedback__inp {
+  width: 376px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  padding-left: 16px;
+  display: flex;
+}
+
+.form-feedback__inp::-moz-placeholder {
+  color: #B5B6BC;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  align-content: start;
+}
+
+.form-feedback__inp::placeholder {
+  color: #B5B6BC;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  align-content: start;
+}
+
+.form-feedback__inp_message {
+  height: 118px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-feedback {
+    width: 100%;
+  }
+  .form-feedback__inp {
+    width: 85vw;
+    height: 44px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .form-feedback__inp {
+    width: 250px;
+  }
+}/*# sourceMappingURL=feedback.css.map */

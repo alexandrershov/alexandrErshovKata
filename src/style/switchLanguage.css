@@ -1,0 +1,30 @@
+.switch-language {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  gap: 7px;
+}
+
+.switch-language__button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "TTLakesBold";
+  cursor: pointer;
+}
+
+.switch-language__button:hover {
+  color: #7E7E82;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .switch-language__button {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .switch-language__button {
+    margin-bottom: 32px;
+  }
+}/*# sourceMappingURL=switchLanguage.css.map */

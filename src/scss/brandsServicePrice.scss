@@ -1,0 +1,138 @@
+.brands-service-price_description{
+    margin: 4px 0px 8px 0px;
+}
+
+.brands-service-price_item:nth-child(1){
+    display: none;
+}
+
+.brands-service-price_title{
+    color: #7E7E82;
+    margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 767) {
+.brands-service-price_title{
+    display: none;
+}  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+.brands-service-price_title{
+    display: none;
+}  
+
+.brands-service-price_list{
+    padding: 0px;
+    margin-left: 3%;
+    width: 90%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.brands-service-price_item{
+    width: 91vw;
+    height: 70px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 35% 10% 15% 25%;
+}
+
+.brands-service-price_item:nth-child(1){
+    display: grid;
+    height: 50px;
+    padding: 0px 0px 45px 20px;
+    background-color: #F8F8F8;
+    color: #7E7E82;
+}
+
+.brands-service-price_item::before{
+    display: block;
+    content: '';
+    width: 87vw;
+    height: 1px;
+    background-color: #EAEAEA;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 2%;
+}
+
+.brands-service-price_item:nth-child(6)::before{
+    display: none;
+}
+}
+
+@media screen and (min-width: 1120px) {
+
+.brands-service-price_title{
+    display: none;
+}  
+
+.brands-service-price_list{
+    padding: 0px;
+    margin-left: 3%;
+}
+
+.brands-service-price_item{
+    padding: 20px;
+    font-size: 14px;
+    width: 92vw;
+    height: 70px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 35% 10% 15% 25%;
+}
+
+.brands-service-price_item:nth-child(1){
+    display: grid;
+    height: 50px;
+    padding: 0px 0px 45px 20px;
+    background-color: #F8F8F8;
+    color: #7E7E82;
+    grid-template-columns: 35.5% 10% 15% 25%;
+}
+
+.brands-service-price_item::before{
+    display: block;
+    content: '';
+    width: 89.2vw;
+    height: 2px;
+    background-color: #EAEAEA;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1%;
+}
+
+.brands-service-price_item:nth-child(6)::before{
+    display: none;
+}
+
+.brands-service-price_list{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.brands-service-price_item{
+    width: 73vw;
+}
+
+.brands-service-price_item::before{
+    width: 70vw;
+}
+
+.brands-service-price_list{
+    padding: 0px;
+    margin-left: 3%;
+    width: 90%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+}

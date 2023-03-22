@@ -1,0 +1,20 @@
+.wrap-main {
+    width: 100%;
+    height: auto;
+    background-color: #f8f8f8;
+}
+
+.wrap {
+    box-sizing: border-box;
+  }
+  
+main {
+    background: #f8f8f8;
+}
+
+@media screen and (min-width: 1440px) {
+    .wrap {
+        width: 90%;
+        box-sizing: border-box;
+    }
+}

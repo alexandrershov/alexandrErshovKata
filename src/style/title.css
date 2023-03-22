@@ -1,0 +1,41 @@
+.title {
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "TTLakesB";
+  width: 100%;
+  height: 40px;
+  font-size: 28px;
+  letter-spacing: -0.6px;
+  position: relative;
+}
+
+.title::before {
+  content: " ";
+  display: block;
+  width: 4px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-color: #41F6D7;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    margin-bottom: 10px;
+    padding-left: 12px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .title {
+    width: auto;
+    padding-left: 30px;
+    margin-top: 14px;
+    margin-right: auto;
+  }
+  .title_feedback {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=title.css.map */

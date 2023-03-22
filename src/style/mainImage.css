@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px) {
+  .main-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .main-image {
+    width: 49.5%;
+    border-radius: 6px;
+  }
+  .information-about-us__main-image {
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=mainImage.css.map */
