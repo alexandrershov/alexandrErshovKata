@@ -23,7 +23,8 @@
 @import url(./style/wrapTitle.css);
 @import url(./style/personalData.css);
 @import url(./style/title.css);
- 
+@import url(./style/сonnection.css); 
+
 body{
     font-family: "TTLakes";
     background: #F8F8F8;

@@ -20,6 +20,11 @@
   letter-spacing: 0.2px;
 }
 
+.information-about-us_item{
+  height: 36px;
+  overflow: hidden;
+}
+
 .information-about-us_item:nth-child(2) {
   margin-bottom: 25px;
 }

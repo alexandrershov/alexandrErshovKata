@@ -19,4 +19,4 @@ const onClick = (e) => {
 
 readMore.forEach(e => {
     e.addEventListener('click' , onClick);
-})
+});

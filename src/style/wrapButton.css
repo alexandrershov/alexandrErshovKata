@@ -5,11 +5,11 @@
   gap: 16px;
 }
 
-.wrap-button__margin-right {
+.top-bar__wrap-button {
   margin-right: auto;
 }
 
-.wrap-button__margin-left {
+.wrap__wrap-button {
   margin-left: 32px;
 }
 
@@ -22,7 +22,7 @@
   .wrap-button:nth-child(2) {
     display: none;
   }
-  .wrap-button__margin-right {
+  .top-bar__wrap-button {
     margin-right: 0px;
   }
 }

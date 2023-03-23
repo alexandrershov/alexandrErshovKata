@@ -160,10 +160,10 @@
     width: auto;
     margin: 18px 16px 26px 0px;
   }
-  .popup-window__button-margin {
+  .popup-window__button {
     margin-right: 16px;
   }
-  .popup-window_logo-margin {
+  .popup-window__logo {
     margin-right: auto;
   }
   .popup-window__item {
@@ -191,29 +191,37 @@
     min-height: 100%;
     background-color: #FFFFFF;
   }
+
   .popup-window__grow {
     margin-left: 24px;
   }
+
   .popup-window__wrap {
     padding-left: 24px;
     width: 90%;
   }
+
   .popup-window__menu {
     width: auto;
     margin: 18px 16px 26px 0px;
   }
+
   .popup-window__list {
     margin-bottom: 80%;
   }
+
   .popup-window__item {
     margin-bottom: 24px;
   }
-  .popup-window__button-margin {
+
+  .popup-window__button {
     margin-right: 16px;
   }
-  .popup-window_logo-margin {
+
+  .popup-window__logo {
     margin-right: auto;
   }
+
   .popup-window__number {
     margin-bottom: auto;
   }
@@ -224,9 +232,11 @@
     min-height: 100%;
     background-color: #FFFFFF;
   }
+
   .popup-window_feedback {
     width: 440px;
   }
+
   .popup-window_feedback__button {
     margin-top: -20px;
   }
@@ -235,9 +245,11 @@
   .popup-window_invisible {
     display: block;
   }
+
   .popup-window__grow {
     margin-left: 24px;
   }
+
   .popup-window__blur {
     z-index: 9999;
     box-sizing: border-box;
@@ -250,35 +262,44 @@
     height: 100vh;
     animation: 0.4s 1 linear moveBlur;
   }
+
   .popup-window {
     position: static;
     width: 320px;
     min-height: 100%;
     background-color: #FFFFFF;
   }
+
   .popup-window__wrap {
     padding-left: 24px;
     width: 90%;
   }
+
   .popup-window__menu {
     width: auto;
     margin: 18px 16px 26px 0px;
   }
+
   .popup-window__list {
     margin-bottom: 80%;
   }
+
   .popup-window__item {
     margin-bottom: 24px;
   }
-  .popup-window__button-margin {
+
+  .popup-window__button {
     margin-right: 16px;
   }
-  .popup-window_logo-margin {
+
+  .popup-window__logo {
     margin-right: auto;
   }
+
   .popup-window__number {
     margin-bottom: auto;
   }
+
   .popup-window_feedback {
     right: 0px;
     position: fixed;
