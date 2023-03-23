@@ -1,6 +1,6 @@
-// import "../scss/style.scss";
-// import "../../src/js/swiper.js";
-// import "../../src/js/readmore.js";
+import "../scss/style.scss";
+import "../../src/js/swiper.js";
+import "../../src/js/readmore.js";
 
 const popupWindowBlur = document.getElementById("popupWindowBlur");
 const closeMenu = document.getElementById("closeMenu");
